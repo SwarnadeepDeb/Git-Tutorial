@@ -6,7 +6,11 @@
 6. `git rm --cached <file>` -> this command is used to bring back the file from the staging area to the working area.
 7. `Repository Area` -> This area contains the details of all your previous registered version. And the files in this area git already manages them and knows there version history.
 8. `commit` -> Commit is a particular version of the project. It captures a snapshot fo the project's staged changes and creates a version out of it.
-9. `git commit` -> registers staging changes to a commit.
+9. `git commit -m "commit message"` -> registers staging changes to a commit.
 10. `git log` -> List down all the commits of the reposatory.
 11. `git restore <file>` -> It removes all the files changes from the staging area to be commited.
 12. `git restore --staged <file>` -> It removes file changes from the staging area to the working area.
+13. Diff between git remove and git restore
+Ans:- If we want to remove whole file to the untracked state, then do git rm, otherwise if we
+just want to the changes to be moved in working area or staging area then we do git restore.
+14. `git diff commit1 commit2` -> gives the difference of all the file changes between two file commits.
