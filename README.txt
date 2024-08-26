@@ -8,3 +8,5 @@
 8. `commit` -> Commit is a particular version of the project. It captures a snapshot fo the project's staged changes and creates a version out of it.
 9. `git commit` -> registers staging changes to a commit.
 10. `git log` -> List down all the commits of the reposatory.
+11. `git restore <file>` -> It removes all the files changes from the staging area to be commited.
+12. `git restore --staged <file>` -> It removes file changes from the staging area to the working area.
