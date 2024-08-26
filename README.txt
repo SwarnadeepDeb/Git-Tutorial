@@ -14,3 +14,10 @@
 Ans:- If we want to remove whole file to the untracked state, then do git rm, otherwise if we
 just want to the changes to be moved in working area or staging area then we do git restore.
 14. `git diff commit1 commit2` -> gives the difference of all the file changes between two file commits.
+15. `git remote` -> List down all the remote connections name.
+16. Remote connections -> It helps you to link two git repositories for uploading and downloading changes from each other.
+17. `git remote add <name of the remote> <link of the remote>` -> This command helps us to add a new link to the remote repo and give a name to it.
+18. `git remote rm <name of the remote> -> This command deletes a remote connection.
+19. `git remote rename <oldname> <newname> -> This command renames the remote connection.
+
+Note:- The name of the remote connection is always used to establish communication between the repos.
