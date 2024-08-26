@@ -19,5 +19,17 @@ just want to the changes to be moved in working area or staging area then we do 
 17. `git remote add <name of the remote> <link of the remote>` -> This command helps us to add a new link to the remote repo and give a name to it.
 18. `git remote rm <name of the remote>` -> This command deletes a remote connection.
 19. `git remote rename <oldname> <newname>` -> This command renames the remote connection.
+20. `git add <file1> <file2>` -> This command will add multiple file changes together in the staging area.
+21. `git add .` -> This fill will add all files from working repo to staging area.
+22. `git pull <remote name> <branch name>` -> Downloads latest  changes from the baranch of the mentioned remote in your local repo.
 
 **Note**:- The name of the remote connection is always used to establish communication between the repos.
+
+
+### Recommended practice to do
+
+    - make changes
+    - git add <file>
+    - git commit
+    - git pull
+    - git push
